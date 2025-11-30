@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{71A8FB10-A6D9-A35A-D9F4-251C403A010C}</ProjectGuid>
+    <ProjectGuid>{E2085BCB-3172-23E5-7D0F-261D276B3499}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -60,55 +60,72 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.48f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\TerrainDemoScene_URP\Scripts\Readme.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
     <Compile Include="Assets\!! Scripts !!\WheelTest.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\!! Scripts !!\CarTest.cs" />
-    <Compile Include="Assets\TerrainDemoScene_URP\Scripts\TerrainTreeToggle.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
     <Compile Include="Assets\!! Scripts !!\CameraFollowSprit.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
     <Compile Include="Assets\!!Notes!!\Charapter size.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
     <Compile Include="Assets\!! Scripts !!\PlayerController.cs" />
-    <Compile Include="Assets\TerrainDemoScene_URP\Scripts\SceneAnnotation.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\TerrainDemoScene_URP\Notes\Stamps.txt" />
-    <None Include="Assets\TerrainDemoScene_URP\ThirdPartyNotices.txt" />
-    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Shaders\TextMeshPro\TMPro.cginc" />
-    <None Include="Assets\TerrainDemoScene_URP\Notes\FadeDistances.txt" />
-    <None Include="Assets\TerrainDemoScene_URP\Notes\Importing maps.txt" />
-    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Shaders\TextMeshPro\TMP_SDF-Mobile Overlay.shader" />
-    <None Include="Assets\TerrainDemoScene_URP\ShaderGraphs\CustomFunctions\CustomLighting.hlsl" />
-    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Shaders\TextMeshPro\TMP_Bitmap.shader" />
-    <None Include="Assets\TerrainDemoScene_URP\ShaderGraphs\CustomFunctions\PseudoSubsurface.hlsl" />
-    <None Include="Assets\TerrainDemoScene_URP\Notes\ProxyTerrain.txt" />
-    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Shaders\TextMeshPro\TMPro_Mobile.cginc" />
-    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Shaders\TextMeshPro\TMP_SDF SSD.shader" />
-    <None Include="Assets\TerrainDemoScene_URP\Scripts\Resources\SceneAnnotation.uxml" />
-    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Shaders\TextMeshPro\TMP_SDF-Surface-Mobile.shader" />
-    <None Include="Assets\TerrainDemoScene_URP\Notes\Layers.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\BEDRILL\Modular_Track_Free\Readme.txt" />
-    <None Include="Assets\TerrainDemoScene_URP\Notes\Welcome.txt" />
-    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Shaders\TextMeshPro\TMP_SDF-Surface.shader" />
-    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Shaders\TextMeshPro\TMP_Bitmap-Custom-Atlas.shader" />
-    <None Include="Assets\TerrainDemoScene_URP\Notes\Reflections.txt" />
-    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Shaders\TextMeshPro\TMP_SDF.shader" />
-    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Shaders\TextMeshPro\TMP_SDF-Mobile SSD.shader" />
-    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Resources\LineBreaking Leading Characters.txt" />
-    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Shaders\TextMeshPro\TMPro_Properties.cginc" />
-    <None Include="Assets\TerrainDemoScene_URP\Scripts\Resources\SceneAnnotationUI.uss" />
-    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Shaders\TextMeshPro\TMPro_Surface.cginc" />
-    <None Include="Assets\TerrainDemoScene_URP\Notes\DenseDetails.txt" />
-    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Resources\LineBreaking Following Characters.txt" />
-    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Shaders\TextMeshPro\TMP_SDF-Mobile Masking.shader" />
-    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Fonts\License.txt" />
-    <None Include="Assets\TerrainDemoScene_URP\Notes\Tiles.txt" />
-    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Shaders\TextMeshPro\TMP_SDF Overlay.shader" />
-    <None Include="Assets\TerrainDemoScene_URP\Notes\SkyboxAssets.txt" />
-    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Shaders\TextMeshPro\TMP_Bitmap-Mobile.shader" />
-    <None Include="Assets\TerrainDemoScene_URP\Notes\WaterShader.txt" />
-    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Fonts\LiberationSans - OFL.txt" />
-    <None Include="Assets\TerrainDemoScene_URP\Notes\SpeedTrees.txt" />
-    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Shaders\TextMeshPro\TMP_SDF-Mobile.shader" />
-    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Shaders\TextMeshPro\TMP_Sprite.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
